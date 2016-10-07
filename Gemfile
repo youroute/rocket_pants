@@ -22,4 +22,6 @@ end
 
 gem 'active_model_serializers', ENV['AMS_VERSION'] || '> 0.0'
 
+gem "api_smith", github: "youroute/api_smith"
+
 gemspec
